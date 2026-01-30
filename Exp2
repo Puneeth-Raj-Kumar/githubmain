@@ -1,0 +1,16 @@
+1) git init
+2) git branch
+3) git branch feature-branch
+4) git checkout feature-branch
+5) ls
+6) git status
+7) git add .
+8) git status
+9) git commit -m "File modified for conflict"
+10) git checkout master
+11) git status
+12) git add .
+13) git commit -m "File modified for conflict"
+14) git status
+15) git merge feature-branch
+16) git mergetool

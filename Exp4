@@ -1,0 +1,28 @@
+1) Create new repository on GitHub
+2) git clone <repository_url>
+3) cd git-pull-request
+4) touch file1.txt
+5) echo "First file" > file1.txt
+6) git status
+7) git add .
+8) git commit -m "Initial commit in master"
+9) git push origin main
+10) git pull origin main
+11) git branch feature1
+12) git checkout feature1
+13) Modify file1.txt
+14) git status
+15) git add .
+16) git commit -m "Changes done in feature1"
+17) git push origin feature1
+18) Create pull request on GitHub:
+    a) Open repository
+    b) Click Compare & Pull Request
+    c) Base branch → main
+    d) Compare branch → feature1
+    e) Add description
+    f) Click Create Pull Request
+19) Review pull request
+20) git checkout main
+21) git pull origin main
+22) git log --oneline

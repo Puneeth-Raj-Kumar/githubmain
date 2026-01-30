@@ -1,0 +1,15 @@
+1) git clone <repository_url>
+2) cd <repository_name>
+3) ls
+4) git pull
+5) git tag v1.0
+6) git tag
+7) git tag -a v1.2 -m "v1.2 is created"
+8) git tag
+9) git show v1.0
+10) git tag -l "v*"
+11) git push origin v1.0
+12) git tag v2.0
+13) git push --tags
+14) git tag -d v1.0
+15) git push origin --delete v1.0

@@ -1,0 +1,19 @@
+1) Sign in to GitHub
+2) Create a repository
+3) Make it public and enable README
+4) Go to C drive and create a folder
+5) Open Git Bash
+6) cd /c/path/to/folder
+7) ls
+8) git status
+9) git clone <repository_url>
+10) cd git-lab-demo
+11) Create a simple python file
+    main.py
+    print("Hello")
+12) git add main.py
+13) git commit -m "Add main.py file"
+14) git push origin main
+15) git fetch origin
+16) git merge origin/main
+17) git pull origin main

@@ -1,0 +1,15 @@
+1) mkdir git-lab-experiment1
+2) cd git-lab-experiment1
+3) git init
+4) ls
+5) git config --global user.name "puneeth"
+6) git config --global user.email "puneeth@gmail.com"
+7) echo "This is README file" > README.txt
+8) git status
+9) git add .
+10) git commit -m "Initial commit"
+11) echo "Git introduction" >> README.txt
+12) git status
+13) git add .
+14) git commit -m "Updated README file"
+15) git log

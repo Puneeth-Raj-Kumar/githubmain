@@ -1,0 +1,14 @@
+
+1) java --version
+2) mvn --version
+3) Create folder on C drive
+   mkdir maven-project
+4) cd maven-project
+5) mvn archetype:generate
+   groupId: org.bms
+   artifactId: maven-demo
+   version: 1.0-SNAPSHOT
+   package: org.bms.demo
+6) mvn package
+7) mvn site
+8) java -cp target/maven-demo-1.0-SNAPSHOT.jar org.bms.demo.App

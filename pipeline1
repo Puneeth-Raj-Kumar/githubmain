@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Sum') {
+            steps {
+                script {
+                    int a = 5
+                    int b = 7
+                    echo "Sum is: ${a + b}"
+                }
+            }
+        }
+    }
+}
